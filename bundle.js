@@ -5,12 +5,28 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             sizes: [0.5, 1.5, 1, 1.8, 0.4, 0.7, 0.9, 1.1, 1.7, 2, 2.1],
             className: "various",
-            config: {}
+            config: {
+                "containerWidth": 320,
+                containerPadding: {
+                    top: 0,
+                    right: 14,
+                    bottom: 0,
+                    left: 14
+                }
+            }
         },
         {
             sizes: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
             className: "squares",
-            config: {}
+            config: {
+                "containerWidth": 320,
+                containerPadding: {
+                    top: 0,
+                    right: 14,
+                    bottom: 0,
+                    left: 14
+                }
+            }
         },
         {
             sizes: [1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1.5, 1.73, 1.1, 0.5, 1],
@@ -20,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     ];
-    // Loop through the demos and put them in the page
+
     demos.forEach(function (demo) {
         var section = document.createElement("section");
         section.innerHTML = `
