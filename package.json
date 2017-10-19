@@ -1,0 +1,19 @@
+{
+  "name": "flick-justified-layout",
+  "version": "1.0.0",
+  "description": "Playing with Flickr algorithm for laying out images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihailgaberov/flickr-justified-layout.git"
+  },
+  "author": "Mihail Gaberov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mihailgaberov/flickr-justified-layout/issues"
+  },
+  "homepage": "https://github.com/mihailgaberov/flickr-justified-layout#readme"
+}
